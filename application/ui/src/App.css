@@ -1,0 +1,60 @@
+.main-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.app-header {
+    background-color: #222222;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.app-logo {
+    padding: 10px;
+    display: inline-block;
+}
+
+.default-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.app-title {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.login-container {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #334d4d;
+}
+
+.main-container {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #85adad
+}
+
+.app-footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

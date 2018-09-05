@@ -1,0 +1,90 @@
+/**
+ * @author [Dilini Gunasena]
+ * @email [dilini@omobio.net]
+ * @create date 2018-09-05 02:43:05
+ * @modify date 2018-09-05 02:43:05
+ * @desc [description]
+*/
+
+@media all and (min-width: 480px) {
+    .wrapper {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    Form {
+        max-width: 380px;
+        padding: 15px 35px 45px;
+        margin: 0 auto;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    .login-form-header {
+        font-family: Lato-Light;
+        font-size: 40px;
+        color: #3D3D3D;
+        letter-spacing: 2.09px;
+        line-height: 29px;
+    }
+    .login-input {
+        position: relative;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+        padding: 15px 5px 5px 5px;
+        font-size: 16px;
+        font-family: 'Lato-Regular';
+    }
+    .login-button {
+        margin: 5% 40% 0 40%;
+        background: #F5515F;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+        outline: none;
+        border: 2px solid #f1f1f1;
+        font-family: 'Lato-Bold';
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0.14px;
+        text-align: center;
+        line-height: 29px;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container>ul {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        width: 10%;
+    }
+    .flex-container>ul>li {
+        list-style-type: none;
+    }
+    .flex-container>ul>li:hover {
+        background-color: #4dd2ff;
+        display: inline-block;
+    }
+    .flex-container>ul>li>a {
+        font-weight: bold;
+        color: #222222;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
+    .active {
+        background-color: #85adad;
+    }
+    .dashboard-icons {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .flex-container>div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        width: 80%;
+    }
+}
