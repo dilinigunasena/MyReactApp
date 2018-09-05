@@ -1,6 +1,7 @@
 # MyReactApp
 This is a sample application created with create-react-app version 1.5.2.
-Feel free to use it.
+Feel free to use it as you wish!!.
+**************************************************************************
 This app contains login screen and general dashboard.
 application/ui/src folder contains following folders purposefully;
 css-user created css file
@@ -8,7 +9,7 @@ pages-user created javascript files
 resources-icons & images required
 utils-javascript files globally accessible
 ==========================================================================
-#README.md file contents generated from create-react-app
+#Original README.md file contents 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
