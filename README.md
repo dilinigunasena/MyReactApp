@@ -2,7 +2,7 @@
 This is a sample application created with create-react-app version 1.5.2.
 Feel free to use it.
 This app contains login screen and general dashboard.
-src folder contains following folders purposefully;
+application/ui/src folder contains following folders purposefully;
 css-user created css file
 pages-user created javascript files 
 resources-icons & images required
