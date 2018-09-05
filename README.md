@@ -1,7 +1,7 @@
 # MyReactApp
 This is a sample application created with create-react-app version 1.5.2.
 Feel free to use it as you wish!!.
-**************************************************************************
+==========================================================================
 This app contains login screen and general dashboard.
 application/ui/src folder contains following folders purposefully;
 css-user created css file
