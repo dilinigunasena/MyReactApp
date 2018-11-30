@@ -13,8 +13,8 @@ import {
 
 //imported JS files
 import History from './utils/History.js'; 
-import Login from './pages/Login.js'; 
-import Dashboard from './pages/Dashboard'; 
+import Login from './components/Login.js'; 
+import Dashboard from './components/Dashboard'; 
 
 class App extends Component {
   render() {
