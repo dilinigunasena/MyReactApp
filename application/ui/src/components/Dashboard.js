@@ -12,8 +12,6 @@ import usericon from "../resources/icons/user.png";
 import setupicon from "../resources/icons/setup.png";
 import reporticon from "../resources/icons/report.png";
 import thumbicon from "../resources/icons/thumbs.png";
-import customericon from "../resources/icons/customer.png"
-
 
 //imported CSS files
 import "../App.css";    

@@ -41,7 +41,7 @@ class Login extends Component {
   doLogin(){
     console.log('UN',this.state.username);
     console.log('PWD',this.state.password);
-    if((this.state.username.length==0) || (this.state.password.length==0)){
+    if((this.state.username.length===0) || (this.state.password.length===0)){
       console.log('invalid username & password');
     }else{
       console.log('calling Login');
